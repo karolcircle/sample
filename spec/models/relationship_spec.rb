@@ -13,7 +13,7 @@ describe Relationship do
   describe "follower methods" do
     it { should respond_to(:follower) }
     it { should respond_to(:followed) }
-    
+
   end
 
   describe "when followed id is not present" do
